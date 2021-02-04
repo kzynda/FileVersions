@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocConsoleApp", "PocConsoleApp\PocConsoleApp.csproj", "{E0CD894F-0877-4945-9415-88511C68A67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CD894F-0877-4945-9415-88511C68A67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CD894F-0877-4945-9415-88511C68A67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CD894F-0877-4945-9415-88511C68A67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CD894F-0877-4945-9415-88511C68A67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5006F752-5D37-4352-A1FB-542ED5DEE913}
+	EndGlobalSection
+EndGlobal
