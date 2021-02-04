@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocConsoleApp", "PocConsoleApp\PocConsoleApp.csproj", "{E0CD894F-0877-4945-9415-88511C68A67C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B8765D86-EC2B-42DC-AD8B-4524DA62AEFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{DA4BE316-C009-427B-9989-85CA5CE1D31D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E0CD894F-0877-4945-9415-88511C68A67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0CD894F-0877-4945-9415-88511C68A67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0CD894F-0877-4945-9415-88511C68A67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8765D86-EC2B-42DC-AD8B-4524DA62AEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8765D86-EC2B-42DC-AD8B-4524DA62AEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8765D86-EC2B-42DC-AD8B-4524DA62AEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8765D86-EC2B-42DC-AD8B-4524DA62AEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4BE316-C009-427B-9989-85CA5CE1D31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4BE316-C009-427B-9989-85CA5CE1D31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4BE316-C009-427B-9989-85CA5CE1D31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4BE316-C009-427B-9989-85CA5CE1D31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
