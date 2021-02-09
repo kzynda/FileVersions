@@ -1,5 +1,6 @@
 ﻿using Core;
 using Ninject;
+using Ninject.Modules;
 
 namespace PocConsoleApp
 {
@@ -26,7 +27,10 @@ namespace PocConsoleApp
 
 		private static IKernel InitDependencyInjection()
 		{
-			IKernel kernel = new StandardKernel(new CoreModule());
+			IKernel kernel = new StandardKernel(new INinjectModule[]
+			{
+				new CoreModule()
+			});
 
 			return kernel;
 		}

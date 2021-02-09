@@ -8,7 +8,7 @@ namespace Core
 		{
 		//	Bind<ISomeInterface>().To<SomeClass>();
 		//	Bind<ICalculate>().To<Calculate>();
-		//	Bind<IStratUp>().To<StartUp>();
+			Bind<IApp>().To<App>();
 		} //TODO KŻ add module initialization
 	}
 }
