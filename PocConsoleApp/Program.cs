@@ -1,36 +1,31 @@
 ﻿using Core;
 using Ninject;
-using Ninject.Modules;
 
 namespace PocConsoleApp
 {
 	internal static class Program
 	{
-		private static void Main(string[] args)
+		private static void Main()
 		{
 			var kernel = InitDependencyInjection();
 
-			var strat = kernel.Get<IApp>();
+			var start = kernel.Get<IApp>();
 
-			StartupConfiguration cfg = InitConfiguration(args);
+			var cfg = InitConfiguration();
 
-			strat.Run(cfg);
+			start.Run(cfg);
 		}
 
-		private static StartupConfiguration InitConfiguration(string[] args)
+		private static StartupConfiguration InitConfiguration()
 		{
-			StartupConfiguration cfg = new StartupConfiguration()
-				{ };
+			var cfg = new StartupConfiguration();
 
 			return cfg;
 		}
 
 		private static IKernel InitDependencyInjection()
 		{
-			IKernel kernel = new StandardKernel(new INinjectModule[]
-			{
-				new CoreModule()
-			});
+			IKernel kernel = new StandardKernel(new CoreModule());
 
 			return kernel;
 		}

@@ -6,9 +6,7 @@ namespace Core
 	{
 		public override void Load()
 		{
-		//	Bind<ISomeInterface>().To<SomeClass>();
-		//	Bind<ICalculate>().To<Calculate>();
 			Bind<IApp>().To<App>();
-		} //TODO KŻ add module initialization
+		} 
 	}
 }
